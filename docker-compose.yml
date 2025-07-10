@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8005:8005"
+    networks:
+      - project_network
+
+networks:
+  project_network:
+    driver: bridge
