@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If you're using Django's collectstatic
+/static/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# pip tools
+pip-log.txt
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Unit test / coverage reports
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+test_output/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Sentry CLI
+.sentryclirc
